@@ -8,4 +8,4 @@ J'y ai notamment ajouté :
 -Un méchanisme de ralentissment des balles à la demande;
 -Une barre indiquant combien de temps je peux ralentir les balles.
 J'ai éprouvé beaucoup de  difficults à implémenter le "switch", ce qui m'a fait douter du choix du sujet.
-J'ai finalement persévéré et pris beaucoup de retard, désolé pour cela.
+J'ai finalement persévéré et pris beaucoup de retard.
