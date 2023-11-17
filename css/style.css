@@ -1,0 +1,25 @@
+#myCanvas {
+    border: 3px solid black;
+    float:left;
+  }
+  
+  #controls {
+    float:right;
+    background-color: rgb(158, 159, 163);
+    border: 1px solid black;
+    width: 340px;
+    
+  }
+ 
+  #progressBar {
+    width: 30%;
+    height: 30px;
+    background-color:rgb(212, 37, 28);
+  }
+
+  #innerBar {
+    height: 100%;
+    width: 0; /* Start with 0 width */
+    background-color:#eee;
+    
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BallAttack</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div id="controls">
+    <p></p>
+   <label for="colorChooser">Player color: </label>
+    <input type="color" value='#FF0000'
+           oninput="changePlayerColor(this.value);" id="colorChooser">
+    <p></p>
+      <label for="selectColorOfBallToEat">Color of ball to eat: </label>
+      <select onchange="changeColorToEat(this.value);" id="selectColorOfBallToEat">
+        <option value='red'>red</option>
+        <option value='blue'>blue</option>
+        <option value='green'>green</option>
+    </select>
+    <p></p>
+  
+   <label for="ballSpeed">Change ball speed: </label>
+    - <input type="range" value='1'
+             min=0.1 max=3 step=0.1
+           oninput="changeBallSpeed(this.value);"
+             id="ballSpeed"> + 
+    <p></p>
+    
+  </div>
+  <canvas id="myCanvas"  width="900" height="400"></canvas>
+
+
+<div id="progressBar">
+  <div id="innerBar"></div>
+</div>
+
+</body>
+</html>
